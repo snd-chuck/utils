@@ -989,7 +989,7 @@ const validate = (fn, target = null) => {
  * @param {number|null} qnum - 대상 문항 번호 (null일 경우 현재 문항)
  * @returns {boolean} 항상 true 반환
  */
-const handle = (qnum = null) => {
+const hangle = (qnum = null) => {
   if (qnum === null) {
     qnum = cur;
   }

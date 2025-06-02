@@ -226,16 +226,16 @@ validate(() => {
 });
 ```
 
-#### `handle(qnum)`
+#### `hangle(qnum)`
 
 텍스트 입력에서 자음/모음 입력을 검사합니다.
 
 ```javascript
 // 현재 문항의 텍스트 입력 검증
-handle();
+hangle();
 
 // 특정 문항 검증
-handle(5);
+hangle(5);
 ```
 
 #### `err(msg)` / `softErr(msg)`
