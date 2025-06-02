@@ -1,0 +1,23 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "Opensurvey Utility Library",
+  "scripts": {
+    "version": "npm version",
+    "release": "npm version patch && git push origin main --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snd-chuck/utils.git"
+  },
+  "keywords": [
+    "survey",
+    "korean",
+    "utilities",
+    "form",
+    "validation",
+    "randomization"
+  ],
+  "author": "Chuck",
+  "license": "Opensurvey"
+}
